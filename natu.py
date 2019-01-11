@@ -1,3 +1,4 @@
+#jyothi
 num=int(input(""))
 sum =0
 while num > 0 :
