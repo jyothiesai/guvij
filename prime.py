@@ -1,12 +1,10 @@
 #jyothi
-num=input()
-if num>1:
-	for i in range(2,num):
-		if(num % i)==0:
-			print("no")
-			break
-		else:
-			print("yes")
-			break
+a=input()
+count=0
+for i in range (2,a):
+	if(a%i==0):
+		count = count+1
+if(count==0):
+	print('yes')
 else:
-	print("no")
+	print('no')
