@@ -7,5 +7,6 @@ if num>1:
 			break
 		else:
 			print("yes")
+			break
 else:
-	print("no	")
+	print("no")
