@@ -3,8 +3,6 @@
 int main()
 {
 int a[10],i,c,b,sum=0;
-printf("enter the limit of natural numbers");
-printf("  \nenter upto what u have to sum ");
 scanf("%d%d",&c,&b);
 for(i=1;i<=c;i++)
 {
