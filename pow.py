@@ -1,2 +1,3 @@
 #jyothi
-print(pow(2,3))
+i,j = raw_input().split(" ")
+print int(i)**int(j)
