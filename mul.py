@@ -1,4 +1,4 @@
 #jyothi
-n=input()
-a=input()
-print(n**a)
+N=input()
+K=input()
+print(N**K)
