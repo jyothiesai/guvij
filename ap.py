@@ -1,7 +1,7 @@
 #jyothi
-n=input()
-a=input()
-d=input()
-for i in range(1,n+1):
-  ap=((2*a+((n-1)*d))*n)//2
+N=input()
+A=input()
+D=input()
+for i in range(1,N+1):
+  ap=((2*A+((N-1)*D))*N)//2
 print(ap)
