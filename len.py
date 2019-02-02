@@ -1,3 +1,3 @@
 #jyothi
-a=str(raw_input())
-print len(a)
+a=raw_input()
+print(len(a)-a.count(" "))
