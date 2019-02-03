@@ -1,6 +1,6 @@
 #jyothi
 n=input()
 if n.isnumeric():
-    print('Yes')
+    print('yes')
 else:
-    print('No')
+    print('no')
