@@ -11,4 +11,4 @@ else:
         a=b
         b=nexterm
         count+=1
-        print(a)
+        print(a.split(""))
