@@ -1,4 +1,4 @@
-#jyothi
+//jyothi
 time = input()
 hour = time //60
 time %= 60
