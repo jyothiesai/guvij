@@ -1,6 +1,5 @@
 #jyothi
-n=int(raw_input())
-m=int(raw_input())
+n,m=list(map(int,raw_input("").split()))
 p=n*m
 if p%2==0:
     print "even"
