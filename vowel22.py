@@ -2,6 +2,6 @@
 n=raw_input()
 vo=set('aeiou')
 if not vo.isdisjoint(n):
-    print "Yes"
+    print "yes"
 else:
-    print "No"
+    print "no"
