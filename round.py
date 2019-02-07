@@ -1,3 +1,7 @@
 #jyothi
-import math
-print(int(math.floor(float(input())+0.5)))
+n=float(input())
+sum=n%10
+while sum!=0:
+    sum=sum+1
+    print(int(sum))
+    break;
