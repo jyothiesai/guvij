@@ -1,4 +1,4 @@
-//jyothisridhar
+//jyothisridhhar
 #include <stdio.h>
 int main()
 {
