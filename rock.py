@@ -15,5 +15,7 @@ elif(user1=='S' and user2=='P' ):
   print('S')
 elif(user1=='S' and user2=='R'):
   print('R')
+elif(user1=='P' and user2=='P'):
+	print('D')
 else:
   print('Invalid')
