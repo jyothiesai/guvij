@@ -1,8 +1,10 @@
 #jyothi
-a1,b1=map(int,raw_input().split(' '))
-a2,b2=map(int,raw_input().split(' '))
-a3,b3=map(int,raw_input().split(' '))
-if (a1==b2 and a2==a3) or(b1==b2 and b2==b3) or (abs(a1-a2)==abs(a2-a3) and abs(b1-b2)==abs(b2-b3)):
-	print("yes")
+x1,y1=map(int,raw_input().split())
+x2,y2=map(int,raw_input().split())
+x3,y3=map(int,raw_input().split())
+if((x1==x1==x3) or (y1==y2==y3)):
+    print("yes")
+elif(((y2-y1)/(x2-x1))==((y3-y1)/(x3-x1))):
+    print("yes")
 else:
-	print("no")
+    print("no")
