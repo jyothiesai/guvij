@@ -1,8 +1,21 @@
 #jyothi
-str=raw_input()
-list=[]
-for i in str:
-    n=ord(i)+3
-    y=chr(n)
-    list.append(y)
-print(''.join(list))
+s=raw_input()
+s=list(s)
+a=[]
+for i in s:
+    if i=="x":
+        a.append("a")
+    elif i=="y":
+        a.append("b")
+    elif i=="z":
+        a.append("c")
+    elif i=="X":
+        a.append("A")
+    elif i=="Y":
+        a.append("B")
+    elif i=="Z":
+        a.append("C")
+    else:
+        c=ord(i)
+        a.append(chr(c+3))
+print("".join(a))
