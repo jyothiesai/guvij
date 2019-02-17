@@ -1,9 +1,13 @@
 #jyothisridhar
-n=int(raw_input())
-s=list(map(int,raw_input().split()))
-k=s.count(s[0])
-for x in s:
-    if(s.count(x)>k):
-        k=s.count(x)
-print(k)
-        
+N,K=(raw_input().split())
+N=int(N)
+K=int(K)
+c=0
+b=[]
+a=(raw_input()).split()
+for i in a:
+    if(a.count(i)==K):
+        b.append(i)
+        while i in a:
+            a.remove(i)
+print("".join(b))
