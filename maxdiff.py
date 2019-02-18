@@ -1,5 +1,14 @@
 #jyothi
-N=int(raw_input())
-a=(raw_input()).split()
-m=sorted(a)
-print(int(m[N-1])-int(m[N-2]))
+n = int(raw_input())
+a = list(map(int,raw_input().split()))
+i =0
+b = [str(a[i]%2) for i in range(n)]
+c = b.count('1')
+if(c ==1):
+    check = '1'
+else:
+    check = '0'
+for i in range(n):
+    if(b[i] == check):
+        print(a[i])
+        break
