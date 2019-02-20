@@ -1,4 +1,4 @@
-#jyothi
+#jyothisridhar
 n=int(raw_input())
 d=[]
 a=list(map(int,raw_input("").split(" ")))[:n]
