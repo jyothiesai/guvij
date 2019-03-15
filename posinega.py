@@ -1,0 +1,10 @@
+#jyothi
+b=int(raw_input())
+m=raw_input().split()
+y=1
+m[0]=int(m[0])
+while(y<b):
+    if(m!=0):
+        m[0]=m[0]*int(m[y])
+    y=y+1
+print(abs(m[0]))
