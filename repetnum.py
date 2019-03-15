@@ -1,9 +1,11 @@
 #jyothi
 s=raw_input()
-s2=str(s.lower())
-p=[]
-for x in s2:
-    if(s2.count(x)==1):
-        p.append(x)
-s1=" ".join(map(str,p))
-print(s1)
+k=""
+l=[]
+for i in s:
+	l.append(s.count(i))
+min1=min(l)
+for i in s:
+	if s.count(i)==min1 and i!=" ":
+		k=k+i.lower()+" "
+print(k.strip())
