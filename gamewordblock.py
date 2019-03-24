@@ -1,12 +1,18 @@
 #jyothi
-s1,s2 = raw_input().split()
-dic1 = {}
-dic2 = {}
-for c in s1 :
-	dic1[c] = dic1.get(c,0) + 1
-for c in s2 :
-	dic2[c] = dic2.get(c,0) + 1
-if dic1.keys() == dic2.keys() :
-	print('true')
-else :
-	print('false')
+r,s=map(str,raw_input().split())
+g=[]
+h=[]
+for i in r:
+    if i not in g:
+        g.append(i)
+for i in s:
+    if i not in h:
+        h.append(i)
+c=0
+for i in g:
+    if g.count(i)==h.count(i):
+        c+=1
+if c==len(g) and c==len(h):
+    print("true")
+else:
+    print("false")
