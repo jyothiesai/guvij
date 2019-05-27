@@ -1,5 +1,6 @@
 #jyothi
-n2=int(input())
-n=n2/2
-a=n2-1
-print(int(a*n))
+n=int(input ())
+if n%2==0:
+	print(int(n/2)*(n-1))
+else:
+	print(n)
