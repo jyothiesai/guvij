@@ -1,5 +1,5 @@
 #jyothi1
-word=input()
+word=raw_input()
 list=[]
 for i in word:
 	if i not in list:
