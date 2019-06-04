@@ -1,4 +1,4 @@
-#jyothi
+#jyothi1
 word=input()
 list=[]
 for i in word:
