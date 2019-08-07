@@ -12,7 +12,7 @@ int main(void) {
 	{
 		for(j=i+1;j<n;j++)
 		{
-			if(arr[i]+arr[j]==0|| arr[i]+arr[j]==1)
+			if(arr[i]+arr[j]==0|| arr[i]+arr[j]==-1)
 			{
 				printf("%d %d",arr[i],arr[j]);
 				break;
