@@ -24,10 +24,10 @@ int main(void) {
 	}
 	if(count==n)
 	{
-		printf("No");
+		printf("NO");
 	}
 	else{
-		printf("Yes");
+		printf("YES");
 	}
 	return 0;
 }
